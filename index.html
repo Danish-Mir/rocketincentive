@@ -181,22 +181,22 @@
       <div id="contactus" class="col-md-5 offset-md-1">
         <h2 class="fw-bold">Contact Us.</h2>
         <hr class="hr-heading"/>
-        <form action="">
+        <form id="contactForm" action="send-mail.php" method="POST" onsubmit="return validateForm();">
           <div class="mb-4">
-            <input type="text" class="form-control bg-seconday" placeholder="Enter First Name">
+            <input type="text" name="first_name" id="firstName" class="form-control bg-seconday" placeholder="Enter First Name">
           </div>
           <div class="mb-4">
-            <input type="text" class="form-control bg-seconday" placeholder="Enter Last Name">
+            <input type="text" name="last_name" id="lastName" class="form-control bg-seconday" placeholder="Enter Last Name">
           </div>
 
           <div class="mb-4">
-            <input type="email" class="form-control bg-seconday" placeholder="Enter Email">
+            <input type="email" name="email" id="email" class="form-control bg-seconday" placeholder="Enter Email">
           </div>
           <div class="mb-4">
-            <textarea class="form-control bg-seconday" id="description" name="description" rows="4" cols="50" placeholder="Enter your Email body here.."></textarea>
-          </div>
+            <textarea name="message" id="message" class="form-control bg-seconday" rows="4"
+            placeholder="Enter your Email body here.."></textarea>          </div>
           <div class="d-grid gap-2">
-            <input type="submit" value="Submit" class="btn btn-primary text-white">
+            <input type="submit" value="Submit" class="btn btn-primary text-white ">
           </div>
         </form>
       </div>
