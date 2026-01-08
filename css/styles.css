@@ -180,7 +180,6 @@ transition: all 0.5s ease-in-out;
   height: 100px;
 }
    /* height: 700px; */
- }
 
 /* video play button */
 .video-play-button
@@ -281,4 +280,12 @@ margin-top: 20px;
  .image-size{
    width:100px;
    height:100px;
+ }
+ .logo-image
+ {
+  max-height: 500px;
+  max-width: 1000px;
+ }
+ .cour-item{
+  align-items: center;
  }
