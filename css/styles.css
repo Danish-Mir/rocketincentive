@@ -1,6 +1,4 @@
-.partners{
-margin-top: 500px;
-}
+
 
 .xl-text{
    font-size: 50px;
@@ -9,7 +7,7 @@ margin-top: 500px;
  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5) ),url('../images/header-background.jpg') left center no-repeat;  
  background-size: cover;
  height: 600px;
- padding-bottom: 400px;
+ padding-bottom: 800px;
 
 }
 .vertical-decoration
